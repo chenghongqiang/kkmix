@@ -6,10 +6,12 @@
  * Time: 17:52
  */
 
+namespace Controller;
+
 class IndexController
 {
-    public function actionIndex()
+    public function index()
     {
-        echo 2;
+        echo "hello world";
     }
 }
